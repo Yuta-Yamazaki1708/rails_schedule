@@ -11,6 +11,12 @@
   </head>
 
   <body>
+    <header>
+      <h1>スケジュールアプリ</h1>
+    </header>
     <%= yield %>
+    <footer>
+      <%= link_to "一覧ページに戻る", posts_path %>
+    </footer>
   </body>
 </html>

@@ -11,3 +11,15 @@ import "channels"
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+
+//= require jquery3
+//= require popper
+//= require bootstrap-sprockets
+//= require bootstrap-datetimepicker
+//= require data-confirm-modal
+
+var data = {'data-format': 'yyyy-MM-dd hh:mm:ss' };
+$(function(){
+    $('.datepicker').attr(data);
+    $('.datepicker').datetimepicker();
+});
