@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  start_at: 2023-07-30 00:58:23
+  end_at: 2023-07-30 00:58:23
+  is_all_day: false
+  content: MyText
+
+two:
+  title: MyString
+  start_at: 2023-07-30 00:58:23
+  end_at: 2023-07-30 00:58:23
+  is_all_day: false
+  content: MyText
