@@ -1,5 +1,13 @@
-<h3>新規スケジュール作成</h3>
+<div class="container">
 
-<%= render "shared/flash_failure" %>
- 
-<%= render "shared/form" %>
+  <h3>新規スケジュール作成</h3>
+
+  <%= render "shared/flash_failure" %>
+
+  <%= render "shared/error", obj: @post %>
+
+  <%= render "shared/form", post: @post %>
+
+  <%= render "shared/to_index" %>
+
+</div>

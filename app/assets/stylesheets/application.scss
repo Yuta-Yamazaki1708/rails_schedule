@@ -1,2 +1,15 @@
 @import "bootstrap";
-@import 'bootstrap-datetimepicker';
+
+header {
+  font-size: 30px;
+  text-align: center;
+}
+
+.btn-primary a {
+  color: white;
+}
+
+span {
+  color: red;
+  font-size: 20px;
+}
